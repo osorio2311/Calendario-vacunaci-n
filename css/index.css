@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color: #005196;
+    font-size: 1.0em;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 95px;
+}
+
+.header img{
+    height: 90px;
+}
+hr{
+    border: 0.1px solid #4d4d4d04;
+    box-shadow: 0 3px 3px 0 rgba(100, 100, 100, 0.8);
+}
+
+.accesibilidad{
+    position: fixed;
+    top: 100px;
+    right: -220px; 
+    background-color: #005196;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    box-shadow: -4px 0 10px rgba(0,0,0,0.1);
+    /*z-index  para sobreponer un elemento sobre otro*/
+    z-index: 1000;
+    transition: right 0.3s ease;
+}
+
+.accesibilidad h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.accesibilidad button{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.icono-accesibilidad{
+    position: fixed;
+    top: 57%;
+    right: 10px;
+    border: 3px solid #005196;
+    border-radius: 50%;
+}
+
+.icono-accesibilidad:hover{
+    cursor: pointer;
+    background-color: rgb(179, 178, 178);
+}
+
+.accesibilidad.mostrar{
+    right: 0;
+}
+
+
+
+/* Tabla edades y despegable */
+.introduceEdad{
+    font-family: helvetica, arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.datosVacunas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tablaEdades,
+.vacunasEdades{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.tablaEdades img{
+    max-width: 50%;
+    height: auto;
+}
+.vacunasEdades select{
+    font-size: 1.5em;
+    background-color: #73b4ec;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#vacunas{
+    font-size: 1.5em;
+    background-color: #white;
+    border: 2px solid #73b4ec;
+    padding: 20px;
+    border-radius: 5px;
+    margin:50px 200px 50px 200px;
+}
+
+#despeVacunacion:hover{
+    cursor: pointer;
+    background-color: #bbd9f3;
+}
