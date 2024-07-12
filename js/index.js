@@ -87,7 +87,5 @@ select.addEventListener("change",function(){
     let vacunaS = tabla.get(select.value);//get es recuperar el valor que tiene el mapa en la clave que se lee en el select
     // cogemos el id  del html y le decimos que salga "vacunas: vacunaS coge el valor de la tabla"
     document.querySelector("#vacunas").innerHTML="Vacunas: "+ vacunaS;
-   
-
-    bordeActivo=vacunaS;
+     bordeActivo=vacunaS;
 })

@@ -111,7 +111,7 @@ hr{
 
 #vacunas{
     font-size: 1.5em;
-    background-color: #white;
+    background-color: white;
     border: 2px solid #73b4ec;
     padding: 20px;
     border-radius: 5px;
@@ -121,4 +121,22 @@ hr{
 #despeVacunacion:hover{
     cursor: pointer;
     background-color: #bbd9f3;
+}
+
+
+.footer {
+    display: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60px; /* Adjust based on your design needs */
+    background-color: #333; /* Example background color */
+    color: white; /* Example text color */
+    text-align: center; /* Ensure text is centered */
+    padding: 10px;
+    
+    
+}
+
+.footer img{
+    width:20px;
 }
